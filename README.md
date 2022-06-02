@@ -1,6 +1,7 @@
 # Getting Started with Create React App
+# PROJETO DE WEB 3.0 CONNECT COM METAMASK E SMART CONTRACTS
 
-<img src="" alt="foto"/>
+<img src="https://user-images.githubusercontent.com/78341732/171521615-c43c174b-65ee-46e5-b28f-86cfe08587d5.png" alt="foto"/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
