@@ -1,9 +1,35 @@
+button {
+  transition: all 0.3s linear;
+  background-color: #8b10dd;
+  border: none;
+  font-weight: 600;
+  padding: 12px;
+  color: #fff;
+  border-radius: 20px;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9e27ee;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: no-drop;
+}
 .App {
   text-align: center;
 }
 
+p {
+  margin-bottom: 10px;
+}
+
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -25,7 +51,8 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fff;
+  font-weight: 600;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +62,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn-connect {
+  background-color: #c712be;
+  padding: 20px;
+}
+.btn-connect:hover {
+  background-color: #d822cf;
+}
+
+.App-counter {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.count {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 25px;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #9e27ee;
 }
